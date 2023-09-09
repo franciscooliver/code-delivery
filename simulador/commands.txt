@@ -1,0 +1,5 @@
+kafka-console-producer --bootstrap-server=localhost:9092 --topic=route.new-direction
+
+kafka-console-consumer --bootstrap-server=localhost:9092 --topic=route.new-position --group=terminal
+
+{"clientId":"1", "routeId":"1"}
